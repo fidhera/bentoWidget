@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="pp.jpg" alt="Profile Picture" class="profile-pic">
+            <!-- <button class="share-button">Share my Profile</button> -->
+        </div>
+        <h1 class="name">Raffael Fidhera Yahya</h1>
+        <p class="bio">Layout Widget IOS</p>
+        <div class="links">
+            <div class="link-card">
+                <i class="fa fa-instagram"></i>
+                <img src="instagram.png" alt="">
+                <p>@fidhera</p>
+                <button class="follow-button" onclick="window.location.href='https:\/www.instagram.com\/fidhera'">Follow</button>
+            </div>
+
+            <div class="link-card">
+                <i class="fa fa-linkedin"></i>
+                <img src="./linkedin.png" alt="">
+                <p>Raffael Fidhera Yahya</p>
+                <!-- <a href="https://linkedin.com" class="link">linkedin.com</a> -->
+                <button class="follow-button" onclick="window.location.href='https:\/www.linkedin.com\/in\/raffael-fidhera-yahya-254336301\/'">Follow</button>
+            </div>
+
+            <div class="link-card">
+                <i class="fa fa-spotify"></i>
+                <img src="./github.png" alt="">
+                <p>Raffael Fidhera</p>
+                <button class="follow-button" onclick="window.location.href='https:\/github.com\/fidhera'">Follow</button>
+            </div>
+            
+            <div class="link-card">
+                <i class="fa fa-tiktok"></i>
+                <img src="./tiktok.png" alt="" style="width: 55px; height: 55px">
+                <!-- <p>TikTok</p> -->
+                <p>@fidhera</p>
+                <button class="follow-button tiktok" onclick="window.location.href='https:\/www.tiktok.com\/@fidhera'">Follow</button>
+            </div>
+        </div>
+        <div class="spotify-widget">
+            <!-- <div class="spotify-header">
+                <i class="fa fa-spotify"></i>
+                <button class="play-button">Play</button>
+            </div>
+            <p class="playlist-name">ARGHHHHHHHH</p>
+            <ul class="playlist">
+                <li>One Of The Girls - The Weeknd, JENNIE, Lily-Rose Depp <span>4:04</span></li>
+                <li>Dangerous - Kardinal Offishall, Akon <span>4:06</span></li>
+                <li>Smack That - Akon, Eminem <span>3:32</span></li>
+                <li>Right Now (Na Na Na) - Akon <span>3:02</span></li>
+            </ul> -->
+            <iframe src="https://open.spotify.com/embed/playlist/25rExDOg1B9ODNld9bEAPP?si=85245e56b48f4371&nd=1&dlsi=952485589e1d48f2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </div>
+    <script>
+        // js buat menambahkan interaktivitas
+        document.querySelector('.share-button').addEventListener('click', function() {
+            alert('Share my Bento clicked!');
+        });
+    </script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+</body>
+</html>
